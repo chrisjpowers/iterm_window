@@ -14,6 +14,9 @@ the tab name as an ItermWindow method.
 
 == EXAMPLE - Open a new iTerm window, cd to a project and open it in TextMate
 
+  require 'rubygems'
+  require 'chrisjpowers-iterm_window'
+
   ItermWindow.open do
     open_tab :my_tab do
       write "cd ~/projects/my_project/trunk"
