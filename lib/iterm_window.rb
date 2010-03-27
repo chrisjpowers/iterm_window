@@ -1,4 +1,4 @@
-# Developed March 17, 2008 by Chris Powers, Killswitch Collective http://killswitchcollective.com
+# Developed March 17, 2008 by Chris Powers
 # 
 # The ItermWindow class models an iTerm terminal window and allows for full control via Ruby commands.
 # Under the hood, this class is a wrapper of iTerm's Applescript scripting API. Methods are used to
