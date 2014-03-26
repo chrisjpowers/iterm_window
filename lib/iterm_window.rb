@@ -146,7 +146,7 @@ class ItermWindow
   end
 
   def shell_out(str)
-    %x{str}
+    %x(#{str})
   end
 
 
