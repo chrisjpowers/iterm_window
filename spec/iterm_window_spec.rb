@@ -118,4 +118,12 @@ describe ItermWindow do
       end
     end
   end
+  
+  describe "shell_out" do
+    it "makes shell call" do
+      desired = "ls"
+      lambda{ @window.send("shell_out",desired)}.should_not raise_error
+      
+    end
+  end
 end
