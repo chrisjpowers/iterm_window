@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'iterm_window'
-  s.version = '0.3.4'
+  s.version = '0.3.5'
   s.author = 'Chris Powers'
   s.date = "2009-02-20"
   s.homepage = 'http://github.com/chrisjpowers/iterm_window'
