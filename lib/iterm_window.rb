@@ -119,7 +119,7 @@ class ItermWindow
 
   # Initializes the terminal window
   def run_commands(window_type, &block)
-    window_types = {:new => '(make new terminal)', :current => 'first terminal'}
+    window_types = {:new => '(make new terminal)', :current => 'current terminal'}
     raise ArgumentError, "ItermWindow#run_commands should be passed :new or :current." unless window_types.keys.include? window_type
     output "tell application 'iTerm'"
     output "activate"
